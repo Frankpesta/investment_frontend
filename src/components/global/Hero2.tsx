@@ -29,11 +29,11 @@ export function Hero2() {
 					duration: 0.6,
 				}}
 				className="z-50 flex flex-col justify-center items-center">
-				<motion.p className="font-bold text-3xl md:text-6xl text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 py-4">
+				<motion.div className="font-bold text-3xl md:text-6xl text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 py-4">
 					"Leading the Future of Wealth: <br /> The World’s
 					<FlipWords words={words} />
 					Crypto Investment Platform"
-				</motion.p>
+				</motion.div>
 				<button className="px-4 py-2 backdrop-blur-sm border bg-emerald-300/10 border-emerald-500/20 text-white mx-auto text-center rounded-full relative mt-4">
 					<span>Join now →</span>
 					<div className="absolute inset-x-0  h-px -bottom-px bg-gradient-to-r w-3/4 mx-auto from-transparent via-emerald-500 to-transparent" />

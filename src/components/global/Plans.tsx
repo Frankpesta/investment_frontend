@@ -3,7 +3,7 @@ import { CardBody, CardContainer, CardItem } from "../ui/3d-card";
 import { CheckIcon } from "lucide-react";
 import { cardDetails } from "@/constants";
 
-const Plans = () => {
+const PlansSection = () => {
 	return (
 		<section className="px-8 py-4">
 			<h2 className="text-2xl md:text-5xl text-black dark:text-white font-bold pb-4 md:pb-0">
@@ -49,4 +49,4 @@ const Plans = () => {
 	);
 };
 
-export default Plans;
+export default PlansSection;

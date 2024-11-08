@@ -1,9 +1,15 @@
-import React from 'react'
+import SectionHeader from "@/components/global/SectionHeader";
+import React from "react";
 
 const Contact = () => {
-  return (
-    <div>Contact</div>
-  )
-}
+	return (
+		<>
+			<SectionHeader
+				title="Contact Us"
+				subtitle="Got any questions or want to reach out to us? We've got you!"
+			/>
+		</>
+	);
+};
 
-export default Contact
+export default Contact;
